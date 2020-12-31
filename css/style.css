@@ -1,0 +1,318 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    
+}
+
+body{
+    background-image: url("../img/back.jpg");
+    background-size: cover;
+
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td{
+    font-family: 'Merriweather', serif;
+}
+
+
+
+/* Header Area */
+.nav{
+    width: 85%;
+    margin: 2% auto; 
+    overflow: auto;
+    text-align: center;
+    
+}
+
+.nav h1{
+    color: darkred;
+}
+.nav h3{
+    color: darkgreen;
+}
+
+.nav ul{
+    width: 95%;
+    float: left;
+    text-align: right;
+    padding-top: 10px;
+    font-family: 'Abril Fatface', cursive;
+        
+}
+
+.nav li{
+    display: inline;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.nav a{
+    color: rgb(5, 68, 24);
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: rgb(66, 3, 3);
+}
+
+/* Banner Area */
+.banner{
+    height: 850px;   
+    background-image: url("../img/coffee.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    /* margin-bottom: 5%; */
+}
+
+.banner-text{
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.banner h2{
+    font-size: 75px;
+    line-height: 75px;
+}
+
+.banner span{
+    color: #990000;
+}
+
+/* About us */
+.concept{
+    height: 200px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+/* .concept h1{
+    color: darkred;
+}
+
+.concept h3{
+    color: darkgreen;
+} */
+.concept p{    
+    text-align: justify;
+    padding: 1em;
+}
+
+/* Menu  */
+.menu {
+    margin: 1em;
+}
+
+.menu h1{
+    
+    text-align: center;
+    color: darkgreen;
+}
+
+.menu hr{
+    width: 3%;
+    height: 4px;
+    background-color: darkred;
+    margin: 0.5% auto;
+}
+
+.contents{
+    margin: 2% auto;
+    width: 85%;
+    height: 1000px;    
+    display: flex;
+    text-align: center;
+}
+
+
+.left{
+    flex: 1;    
+    background-image: url("../img/bev.jpg");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin-right: 1%;
+    
+}
+
+.right{
+    flex: 1;
+    background-image: url("../img/pizza.jpg");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.menu-text{
+    /* text-align: right; */
+    padding: 7em;
+
+}
+
+/* gallery */
+.gallery{
+    width: 85%;
+    margin: 0 auto 5%;
+    overflow: auto;
+}
+.gallery-item {
+    width: 24.25%;
+    float: left;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.item1,
+.item2,
+.item3{
+    margin-right: 1%;
+}
+/* Footer Area */
+.footer{    
+    text-align: center; 
+    background-color: #FFFACD;
+}   
+
+.footer hr{
+    width: 100%;
+    height: 5px;
+    background-color: #990000;   
+    
+}
+
+/* drink menu */
+.bevmenu{
+    text-align: center;
+    width: 85%;
+    margin:0 auto 5%;
+    overflow: auto;
+
+}
+table, td, th {
+    border-bottom: 1px solid black;
+    width: 50%;
+    min-height: 450px;
+    /* flex: 1; */
+}
+table {
+    border-collapse: collapse;
+}
+
+th{
+    text-align: left;
+}
+td{
+    text-align: right;
+}
+
+/* Coffee */
+.coffee hr{
+    width: 10%;
+    height: 4px;
+    background-color: #990000;
+    margin: 0,auto;
+}
+
+.coffee h2{
+    text-align: left;
+}
+.coffee{
+    margin: 1em;
+    min-height: 450px;
+    /* display: flex; */
+}
+.coffee img{
+    margin: 1em;
+    height: 450px;
+    width: 40%;
+    /* position: absolute;
+    right: 1; */
+    float: right;
+}
+
+/* Alcohol */
+.alcohol hr{
+    width: 10%;
+    height: 4px;
+    background-color: darkgreen;
+    padding-right: 50px;
+    float: right;
+}
+
+.alcohol h2{
+    text-align: right;
+}
+
+
+.alcohol{
+    margin: 1em;
+    min-height: 450px;
+    /* display: flex; */
+}
+/* .alcohol table{
+    float: right;
+    margin-right: 0;
+    min-height: 450px;
+} */
+.alcohol img{
+    height: 450px;
+    width: 40%;
+    float: left;
+    margin: 1em;
+}
+
+/* softdrink */
+
+.softdrink hr{
+    width: 10%;
+    height: 4px;
+    background-color: #990000;
+    margin: 0,auto;
+}
+
+.softdrink h2{
+    text-align: left;
+}
+.softdrink{
+    margin: 1em;
+    min-height: 450px;
+}
+/* .softdrink table{
+    float: left;
+    margin-left: 0;
+    min-height: 450px;
+} */
+
+.softdrink img{
+    margin: 1em;
+    height: 450px;
+    width: 40%;
+    /* position: absolute;
+    right: 1;  */
+    float: right; 
+}
+
+
+
+   
+
+
